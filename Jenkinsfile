@@ -1,7 +1,7 @@
 pipeline{
 	agent any
 	tools{
-		maven "maven-3.9.6"
+		maven "maven_3.6.3"
 		}
 	stages{
 		stage("Fetching Code from Git"){
